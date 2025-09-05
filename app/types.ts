@@ -19,3 +19,12 @@ export type Note = {
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type User = {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  address?: { city?: string };
+  company?: { name?: string };
+};
